@@ -11,9 +11,6 @@ namespace Attribute.ListToPopup
         public Type MyType;
         public string PropertyName;
 
-        /// <summary>
-        /// SceneName Mode
-        /// </summary>
         public ListToPopupAttribute() { }
 
         /// <summary>
