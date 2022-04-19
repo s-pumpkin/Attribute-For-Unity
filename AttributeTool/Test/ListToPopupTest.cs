@@ -5,7 +5,7 @@ using Attribute.ListToPopup;
 
 public class ListToPopupTest : MonoBehaviour, ISerializationCallbackReceiver
 {
-    [ListToPopup] public string SceneName;
+    [SceneName] public string SceneName;
 
     public static List<string> test1 = new List<string>() { "1", "2", "3" };
     [ListToPopup(typeof(ListToPopupTest), "test1")] public string TestPopup1;
